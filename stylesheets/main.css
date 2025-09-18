@@ -1,0 +1,1939 @@
+body{
+	background-color: #F6F5FA;
+}
+.desabilita1 {
+  pointer-events: none;
+  opacity: 0.6;
+}
+.desabilita2 {
+  pointer-events: none;
+  opacity: 0.6;
+}
+.desabilita3 {
+  pointer-events: none;
+  opacity: 0.6;
+}
+.desabilita4 {
+  pointer-events: none;
+  opacity: 0.6;
+}
+.intro{
+	text-align: center;
+  display: inline-flex;
+    align-items: center;
+}
+.espaco1{
+	padding-bottom: 30px;
+}
+.espaco2{
+	padding-bottom: 70px;
+}
+.espaco3{
+  padding-top: 30px;
+}
+.espaco10{
+  padding-bottom: 10px;
+}
+.texto1{
+	text-align: left;
+	border: 25px solid #1da1f2;
+    padding: 22px 15px 5px 15px;
+    margin-bottom: 20px;
+    background-color: #f6f5fa;
+}
+.texto100{
+  text-align: left;
+  border: 25px solid #1da1f2;
+    padding: 22px 15px 5px 15px;
+    margin-bottom: 20px;
+    background-color: #f6f5fa;
+    width: 80%;
+}
+.texto2{
+  text-align: left;
+  border: 25px solid #f7bc67;
+    padding: 22px 5px 5px 5px;
+    margin-bottom: 20px;
+    background-color: #f6f5fa;
+}
+.texto22{
+  text-align: left;
+  border: 25px solid #f7bc67;
+    padding: 22px 0px 5px 0px;
+    margin-bottom: 20px;
+    background-color: #f6f5fa;
+}
+/* Accordion styles */
+.tabs {
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.tab-label h2{
+  font-size: 26px;
+}
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.55em;
+  background: #f6bb62;
+  font-weight: bold;
+  cursor: pointer;
+  /* Icon */
+}
+.tab-label p {
+  margin-bottom: 0;
+  color: black;
+}
+.tab-label:hover {
+  background: #f7bc67;
+}
+.tab-label::after {
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+  color: black;
+}
+.tab-content {
+  max-height: 0;
+  padding: 0px 1em 0 0;
+  color: #2c3e50;
+  background: #fdefda;
+  transition: all 0.35s;
+}
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
+}
+.tab-close:hover {
+  background: #1a252f;
+}
+
+input:checked + .tab-label {
+  background: #f7bc67;
+}
+input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 158vh;
+}
+
+/*fim*/
+/*imagens arte*/
+
+.respostas_educacao_1 h2{
+      font-weight: 600;
+    font-size: 2.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_1 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_1{
+  width: 100%;
+}
+ /**********************************************/
+
+ .respostas_educacao_2 h2{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_2 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_2{
+  width: 100%;
+}
+
+ /*************************************************/
+
+  .respostas_educacao_3 h2{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_3 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_3{
+  width: 100%;
+}
+
+ /*************************************************/
+   .respostas_educacao_4 h2{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_4 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_4{
+  width: 100%;
+}
+
+ /*************************************************/
+
+    .respostas_educacao_5 h2{
+      font-weight: 600;
+    font-size: 18px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_5 p{
+      font-weight: 600;
+    font-size: 14px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_5{
+  width: 100%;
+}
+
+ /*************************************************/
+.opcao1{
+    padding: 2px;
+  position: absolute;
+  top: 32%;
+  left: 7%;
+  background-color: white;
+  width: 87%;
+  height: 7%;
+}
+.opcao2{
+    padding: 2px;
+    position: absolute;
+    top: 6%;
+    width: 89%;
+    left: 6%;
+    height: 27%;
+}
+.opcao3{
+    padding: 2px;
+    position: absolute;
+    top: 41%;
+    left: 51%;
+    background-color: white;
+    width: 29%;
+    height: 20%;
+}
+.opcao4{
+    padding: 2px;
+    position: absolute;
+    top: 41%;
+    left: 6%;
+    background-color: white;
+    width: 44%;
+    height: 20%;
+}
+.opcao5{
+    padding: 2px;
+    position: absolute;
+    top: 62%;
+    right: 35.8%;
+    background-color: white;
+    width: 28.2%;
+    height: 20%;
+}
+.opcao6{
+padding: 2px;
+    position: absolute;
+    top: 62%;
+    right: 5.5%;
+    background-color: white;
+    width: 30.2%;
+    height: 20%;
+}
+/****************fim modelo 1*******************************/
+
+
+
+ /***************************modelo 2 **********************/
+.respostas_educacao_10 h2{
+      font-weight: 600;
+    font-size: 2.4vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_10 p{
+      font-weight: 600;
+    font-size: 1.1vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_10{
+  width: 100%;
+}
+ /**********************************************/
+
+ .respostas_educacao_20 h2{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_20 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_20{
+  width: 100%;
+}
+
+ /*************************************************/
+
+  .respostas_educacao_30 h2{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_30 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_30{
+  width: 100%;
+}
+
+ /*************************************************/
+   .respostas_educacao_40 h2{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_40 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_40{
+  width: 100%;
+}
+
+ /*************************************************/
+
+    .respostas_educacao_50 h2{
+      font-weight: 600;
+    font-size: 18px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_50 p{
+      font-weight: 600;
+    font-size: 14px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_50{
+  width: 100%;
+}
+
+ /*************************************************/
+.opcao11{
+padding: 2px;
+    position: absolute;
+    top: 7%;
+    left: 65%;
+    background-color: white;
+    width: 29%;
+    height: 20%;
+}
+.opcao21{
+    padding: 2px;
+    position: absolute;
+    top: 6%;
+    width: 58%;
+    left: 6.5%;
+    height: 35%;
+}
+.opcao31{
+    padding: 2px;
+    position: absolute;
+    top: 42%;
+    left: 6%;
+    background-color: white;
+    width: 29%;
+    height: 20%;
+}
+.opcao41{
+padding: 2px;
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    background-color: white;
+    width: 57%;
+    height: 20%;
+}
+.opcao51{
+padding: 2px;
+    position: absolute;
+    top: 64%;
+    right: 35.8%;
+    background-color: white;
+    width: 28.2%;
+    height: 17%;
+}
+.opcao61{
+padding: 2px;
+    position: absolute;
+    top: 64%;
+    right: 5%;
+    background-color: white;
+    width: 31%;
+    height: 32%;
+}
+/***********************************************/
+.arte1{
+	width: 100%;
+}
+
+.arte2{
+	width: 100%;
+}
+
+.arte3{
+	width: 65%;
+	cursor: pointer;
+}
+.arte3c{
+  width: 61%;
+  cursor: pointer;
+}
+.arte3d{
+    width: 32%;
+    cursor: pointer;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.arte4{
+	width: 100%;
+}
+.arte5{
+  width: 56%;
+}
+.arte501{
+  width: 70%;
+  padding-left: 12px;
+}
+.arte500{
+  width: 28%;
+}
+.arte50{
+  width: 100%;
+}
+.arte50a{
+  width: 30%;
+  padding-right: 10px;
+}
+.arte50b{
+  width: 70%;
+}
+.arte50c{
+  width: 50%;
+  padding-right: 10px;
+}
+.arte50d{
+  width: 50%;
+}
+.arte6{
+width: 80%;
+}
+.arte7{
+width: 80%;
+}
+.arte8{
+
+}
+.arte9{
+width: 100%;
+}
+.seta_avancar{
+  width: 60%;
+}
+.seta_voltar{
+  width: 60%;
+}
+.arte10{
+width: 100%;
+}
+.arte11{
+
+}
+.arte12{
+  width: 60%;
+  cursor: pointer;
+}
+.arte13{
+ width: 60%;
+ cursor: pointer;
+}
+.alinhar_vertical{
+  display: flex;
+    align-items: end;
+}
+/*****************imagem sobreposta-template********************/
+.template{
+  width: 100%;
+}
+
+/**********************************/
+.borda1{
+	text-align: left;
+    border: 25px solid #1da1f2;
+    padding: 22px 5px 5px 5px;
+    margin-bottom: 20px;
+    background-color: #f6f5fa;
+}
+.borda2{
+	text-align: left;
+    border: 25px solid #f7bc67;
+    padding: 22px 5px 5px 5px;
+    margin-bottom: 20px;
+    background-color: #f6f5fa;
+}
+.subtitulo{
+	text-align: right;
+	margin-bottom: 20px;
+}
+.subtitulo2{
+	text-align: left;
+    margin-bottom: 20px;
+    color: #1da1f2;
+    font-size: 24px;
+    font-weight: 600;
+}
+.subtitulo3{
+    margin-bottom: 20px;
+    color: #F6BB5E;
+    font-size: 24px;
+    font-weight: 600;
+}
+.destaque10{
+  width: 28%;
+}
+.destaque11{
+  width: 90%;
+}
+.sub p{
+    color: white;
+}
+.link_leao{
+  color: #F6BB5E;
+  word-break: break-all;
+}
+.link_leao:hover{
+  color: orange; !important;
+}
+.span1{
+	background-color: #1da1f2;
+    color: #fff;
+    font-size: 32px;
+    padding: 0px 10px 0px 19px;
+    font-weight: 600;
+}
+.span2{
+	background-color: #1da1f2;
+    color: #fff;
+    font-size: 32px;
+    padding: 0px 10px 0px 19px;
+    font-weight: 600;
+}
+.span3{
+  background-color: #f7bc67;
+    color: #fff;
+    font-size: 32px;
+    padding: 0px 10px 0px 19px;
+    font-weight: 600;
+}
+.span4{
+  background-color: #f7bc67;
+    color: #fff;
+    font-size: 32px;
+    padding: 0px 10px 0px 19px;
+    font-weight: 600;
+}
+
+.degrade1{
+    background: linear-gradient( to top, #f7bc68 0%, #f6bb5e 25%, #f6f5fa 25%, #f6f5fa 100% );
+}
+.degrade2{
+    background: linear-gradient( to top, #1da1f2 0%, #1da1f2 60%, #f6f5fa 60%, #f6f5fa 100% );
+}
+.editor{
+      text-align: center;
+    padding: 30px;
+    cursor: pointer;
+}
+.botao_escolha{
+    width: 50px;
+    background-color: #f7bc67;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 42px;
+    font-weight: 700;
+}
+.clicked {
+    width: 50px;
+    background-color: #fff;
+    color: #1da1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 42px;
+    font-weight: 700;
+    border: 7px solid;
+}
+.grupo{
+padding-bottom: 5px;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+}
+.grupo p {
+    margin-bottom: 0;
+    background-color: #f7bc67;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 10px 0px 5px;
+    z-index: 10;
+}
+
+.mobile{
+background-color: #f7bc67;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 0px 0px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+/*******************Acordion*********************/
+.lista {
+  list-style: none;
+  padding: 0;
+}
+
+ul .inner {
+  padding-left: 1em;
+  overflow: hidden;
+  display: none;
+  background-color: #fdefda;
+}
+
+ul li {
+  margin: 0.5em 0;
+}
+
+ul li a.toggle {
+  width: 100%;
+  display: block;
+  background: #f6bb62;
+  color: black;
+  padding: 0.75em;
+  transition: background 0.3s ease;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+.rotated {
+  transition: all 0.35s;
+  transform: rotate(90deg);
+}
+/**************carrossel***************/
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+  .carousel-control-prev, .carousel-control-next {
+      top: 0;
+      bottom: 0;
+      z-index: 1;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      opacity: 1;
+      transition: opacity .15s ease;
+}
+.carousel-item .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botao_proximo{
+    cursor: pointer;
+    color: #ffffff;
+}
+.botao_voltar{
+    cursor: pointer;
+    color: #ffffff;
+}
+.seta{
+  position: absolute;
+      z-index: 10;
+    width: 100%;
+    top: 48%;
+}
+
+/****************************/
+/* Grifado animado */
+/* https://codepen.io/AllThingsSmitty/pen/zGpgQK/ */
+.highlight {  
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%,#88d2ff 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;  
+  transition: background-position 0.5s ease-out;
+  padding: 0 3px;
+}
+.highlight--highlighted {
+  background-position: -100% 0;
+}
+.slow-transition.highlight {
+  transition: background-position .9s ease-out;
+}
+
+
+.highlight2 {  
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%,#88d2ff 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;  
+  transition: background-position 0.5s ease-out;
+  padding: 0 3px;
+}
+.highlight--highlighted {
+  background-position: -100% 0;
+}
+.slow-transition.highlight2 {
+  transition: background-position .9s ease-out;
+}
+/**************carrossel2***************/
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+  .carousel-control-prev2, .carousel-control-next2 {
+      top: 0;
+      bottom: 0;
+      z-index: 1;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      opacity: 1;
+      transition: opacity .15s ease;
+}
+.carousel-item .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botao_proximo2{
+    cursor: pointer;
+    color: #ffffff;
+}
+.botao_voltar2{
+    cursor: pointer;
+    color: #ffffff;
+}
+.seta2{
+  position: absolute;
+      z-index: 10;
+    width: 100%;
+    top: 38%;
+}
+
+/****************************/
+
+@media screen and (max-width: 990px) {
+
+  .texto100{
+  text-align: left;
+  border: 25px solid #1da1f2;
+    padding: 22px 15px 5px 15px;
+    margin-bottom: 20px;
+    background-color: #f6f5fa;
+    width: 100%;
+}
+ /*************************************************/
+.respostas_educacao_1 h2{
+      font-weight: 600;
+    font-size: 3.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_1 p{
+      font-weight: 600;
+    font-size: 1.7vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_1{
+  width: 100%;
+}
+ /**********************************************/
+
+ .respostas_educacao_2 h2{
+      font-weight: 600;
+    font-size: 2.4vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_2 p{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_2{
+  width: 100%;
+}
+
+ /*************************************************/
+
+  .respostas_educacao_3 h2{
+      font-weight: 600;
+    font-size: 2.4vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_3 p{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_3{
+  width: 100%;
+}
+
+ /*************************************************/
+   .respostas_educacao_4 h2{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_4 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_4{
+  width: 100%;
+}
+
+ /*************************************************/
+
+    .respostas_educacao_5 h2{
+      font-weight: 600;
+    font-size: 18px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_5 p{
+      font-weight: 600;
+    font-size: 14px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_5{
+  width: 100%;
+}
+
+ /*************************************************/
+.opcao1{
+    padding: 2px;
+  position: absolute;
+  top: 32%;
+  left: 7%;
+  background-color: white;
+  width: 87%;
+  height: 7%;
+}
+.opcao2{
+    padding: 2px;
+      position: absolute;
+    top: 7%;
+    width: 88%;
+    left: 6.8%;
+    height: 26%;
+}
+.opcao3{
+    padding: 2px;
+position: absolute;
+    top: 40%;
+    left: 51%;
+    background-color: white;
+    width: 28%;
+    height: 19%;
+}
+.opcao4{
+    padding: 2px;
+    position: absolute;
+    top: 40%;
+    left: 6.8%;
+    background-color: white;
+    width: 43.2%;
+    height: 21%;
+}
+.opcao5{
+    padding: 2px;
+    position: absolute;
+    top: 62%;
+    right: 35.8%;
+    background-color: white;
+    width: 28.2%;
+    height: 20%;
+}
+.opcao6{
+padding: 2px;
+    position: absolute;
+    top: 61%;
+    right: 5.2%;
+    background-color: white;
+    width: 30.2%;
+    height: 19%;
+}
+/***********************************************/
+/***************************modelo 2 **********************/
+.respostas_educacao_10 h2{
+      font-weight: 600;
+    font-size: 2.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_10 p{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_10{
+  width: 100%;
+}
+ /**********************************************/
+
+ .respostas_educacao_20 h2{
+      font-weight: 600;
+    font-size: 2.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_20 p{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_20{
+  width: 100%;
+}
+
+ /*************************************************/
+
+  .respostas_educacao_30 h2{
+      font-weight: 600;
+    font-size: 2.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_30 p{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_30{
+  width: 100%;
+}
+
+ /*************************************************/
+   .respostas_educacao_40 h2{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_40 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_40{
+  width: 100%;
+}
+
+ /*************************************************/
+
+    .respostas_educacao_50 h2{
+      font-weight: 600;
+    font-size: 18px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_50 p{
+      font-weight: 600;
+    font-size: 14px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_50{
+  width: 100%;
+}
+
+ /*************************************************/
+.opcao11{
+padding: 2px;
+    position: absolute;
+    top: 7%;
+    left: 65%;
+    background-color: white;
+    width: 29%;
+    height: 20%;
+}
+.opcao21{
+    padding: 2px;
+    position: absolute;
+    top: 6%;
+    width: 58%;
+    left: 6%;
+    height: 35%;
+}
+.opcao31{
+    padding: 2px;
+    position: absolute;
+    top: 42%;
+    left: 6%;
+    background-color: white;
+    width: 29%;
+    height: 20%;
+}
+.opcao41{
+padding: 2px;
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    background-color: white;
+    width: 57%;
+    height: 20%;
+}
+.opcao51{
+padding: 2px;
+    position: absolute;
+    top: 64%;
+    right: 35.8%;
+    background-color: white;
+    width: 28.2%;
+    height: 17%;
+}
+.opcao61{
+padding: 2px;
+    position: absolute;
+    top: 64%;
+    right: 5%;
+    background-color: white;
+    width: 31%;
+    height: 32%;
+}
+/***********************************************/
+}
+
+/*******************************/
+@media screen and (max-width: 770px) {
+.seta {
+    position: absolute;
+    z-index: 10;
+    width: 120%;
+    top: 55%;
+    left: -56px;
+
+  /*
+.respostas_educacao_10 h2{
+      font-weight: 600;
+    font-size: 2.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_10 p{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_10{
+  width: 100%;
+}
+ /**********************************************
+
+ .respostas_educacao_20 h2{
+      font-weight: 600;
+    font-size: 2.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_20 p{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_20{
+  width: 100%;
+}
+
+ /*************************************************
+
+  .respostas_educacao_30 h2{
+      font-weight: 600;
+    font-size: 2.3vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_30 p{
+      font-weight: 600;
+    font-size: 1.4vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_30{
+  width: 100%;
+}
+
+ /*************************************************
+   .respostas_educacao_40 h2{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_40 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_40{
+  width: 100%;
+}
+
+ /*************************************************
+
+    .respostas_educacao_50 h2{
+      font-weight: 600;
+    font-size: 18px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_50 p{
+      font-weight: 600;
+    font-size: 14px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_50{
+  width: 100%;
+}
+
+ /*************************************************
+.opcao11{
+padding: 2px;
+    position: absolute;
+    top: 7%;
+    left: 65%;
+    background-color: white;
+    width: 29%;
+    height: 20%;
+}
+.opcao21{
+    padding: 2px;
+    position: absolute;
+    top: 6%;
+    width: 58%;
+    left: 6%;
+    height: 35%;
+}
+.opcao31{
+    padding: 2px;
+    position: absolute;
+    top: 42%;
+    left: 6%;
+    background-color: white;
+    width: 29%;
+    height: 20%;
+}
+.opcao41{
+padding: 2px;
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    background-color: white;
+    width: 57%;
+    height: 20%;
+}
+.opcao51{
+padding: 2px;
+    position: absolute;
+    top: 64%;
+    right: 35.8%;
+    background-color: white;
+    width: 28.2%;
+    height: 17%;
+}
+.opcao61{
+padding: 2px;
+    position: absolute;
+    top: 64%;
+    right: 5%;
+    background-color: white;
+    width: 31%;
+    height: 32%;
+}
+/***********************************************/
+
+ /*************************************************
+.respostas_educacao_1 h2{
+      font-weight: 600;
+    font-size: 3.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_1 p{
+      font-weight: 600;
+    font-size: 1.6vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_1{
+  width: 100%;
+}
+ /**********************************************
+
+ .respostas_educacao_2 h2{
+      font-weight: 600;
+    font-size: 2.4vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_2 p{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_2{
+  width: 100%;
+}
+
+ /*************************************************
+
+  .respostas_educacao_3 h2{
+      font-weight: 600;
+    font-size: 2.4vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_3 p{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_3{
+  width: 100%;
+}
+
+ /*************************************************
+   .respostas_educacao_4 h2{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_4 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_4{
+  width: 100%;
+}
+
+ /*************************************************
+
+    .respostas_educacao_5 h2{
+      font-weight: 600;
+    font-size: 18px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_5 p{
+      font-weight: 600;
+    font-size: 14px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_5{
+  width: 100%;
+}
+
+ /*************************************************
+.opcao1{
+    padding: 2px;
+  position: absolute;
+  top: 32%;
+  left: 7%;
+  background-color: white;
+  width: 87%;
+  height: 7%;
+}
+.opcao2{
+    padding: 2px;
+      position: absolute;
+    top: 7%;
+    width: 88%;
+    left: 6.8%;
+    height: 26%;
+}
+.opcao3{
+    padding: 2px;
+position: absolute;
+    top: 40%;
+    left: 51%;
+    background-color: white;
+    width: 28%;
+    height: 19%;
+}
+.opcao4{
+    padding: 2px;
+    position: absolute;
+    top: 40%;
+    left: 6.8%;
+    background-color: white;
+    width: 43.2%;
+    height: 21%;
+}
+.opcao5{
+    padding: 2px;
+    position: absolute;
+    top: 61%;
+    right: 35.8%;
+    background-color: white;
+    width: 28.2%;
+    height: 19%;
+}
+.opcao6{
+padding: 2px;
+    position: absolute;
+    top: 61%;
+    right: 5.2%;
+    background-color: white;
+    width: 30.2%;
+    height: 19%;
+}
+/***********************************************/
+}
+
+@media screen and (max-width: 480px) {
+
+  input:checked ~ .altura {
+  max-height: 250vh;
+}
+
+  ul li a.toggle {
+    width: 100%;
+    display: block;
+    background: #f6bb62;
+    color: black;
+    padding: 0.75em;
+    transition: background 0.3s ease;
+    font-weight: 600;
+    font-size: 12px;
+}
+.seta2{
+    position: absolute;
+    z-index: 10;
+    width: 120%;
+    top: 38%;
+    left: -32px;
+}
+.seta{
+    position: absolute;
+    z-index: 10;
+    width: 110%;
+    top: 48%;
+    left: -18px;
+}
+
+.seta_avancar{
+  width: 40%;
+}
+.seta_voltar{
+  width: 40%;
+}
+.arte5{
+  width: 75%;
+}
+.grupo p {
+    margin-bottom: 0;
+    background-color: #f7bc67;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0px 0px 0px 0px;
+    z-index: 10;
+}
+.botao_escolha {
+    width: 35px;
+    background-color: #f7bc67;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+.span1 {
+    background-color: #1da1f2;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 10px 0px 19px;
+    font-weight: 600;
+}
+.span2 {
+    background-color: #1da1f2;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 10px 0px 19px;
+    font-weight: 600;
+}
+.span3 {
+    background-color: #f7bc67;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 10px 0px 19px;
+    font-weight: 600;
+}
+.span4 {
+    background-color: #f7bc67;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 10px 0px 19px;
+    font-weight: 600;
+}
+.subtitulo2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #1da1f2;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*imagens arte*/
+
+.arte1{
+  width: 80%;
+}
+
+.arte2{
+  width: 100%;
+}
+
+.arte3{
+     width: 80%;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.arte3c{
+     width: 80%;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.arte3d{
+     width: 78%;
+    cursor: pointer;
+}
+.arte4{
+  width: 70%;
+}
+
+.arte50{
+  width: 100%;
+}
+.arte50a{
+  width: 30%;
+  padding-right: 10px;
+}
+.arte50b{
+  width: 70%;
+}
+.arte50c{
+  width: 50%;
+  padding-right: 10px;
+}
+.arte50d{
+  width: 50%;
+}
+.arte6{
+width: 100%;
+    padding-bottom: 10%;
+}
+.arte7{
+width: 100%;
+    padding-bottom: 10%;
+}
+.arte8{
+width: 70%;
+}
+.arte9{
+width: 100%;
+}
+.arte10{
+width: 100%;
+}
+.arte11{
+
+}
+.arte12{
+  width: 90%;
+  cursor: pointer;
+}
+.arte13{
+ width: 90%;
+ cursor: pointer;
+}
+.subtitulo3 {
+    margin-bottom: 20px;
+    color: #F6BB5E;
+    font-size: 18px;
+    font-weight: 600;
+}
+.espaco1 {
+    padding-bottom: 10px;
+}
+.clicked {
+    width: 35px;
+    background-color: #fff;
+    color: #1da1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    border: 3px solid;
+}
+   /*************************************************/
+.respostas_educacao_1 h2{
+      font-weight: 600;
+    font-size: 4vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_1 p{
+      font-weight: 600;
+    font-size: 1.9vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_1{
+  width: 100%;
+}
+ /**********************************************/
+
+ .respostas_educacao_2 h2{
+      font-weight: 600;
+    font-size: 2.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_2 p{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_2{
+  width: 100%;
+}
+
+
+
+ /*************************************************/
+.respostas_educacao_1 h2{
+      font-weight: 600;
+    font-size: 3.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_1 p{
+      font-weight: 600;
+    font-size: 1.6vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_1{
+  width: 100%;
+}
+ /**********************************************/
+
+ .respostas_educacao_2 h2{
+      font-weight: 600;
+    font-size: 2.4vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_2 p{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_2{
+  width: 100%;
+}
+
+ /*************************************************/
+
+  .respostas_educacao_3 h2{
+      font-weight: 600;
+    font-size: 2.4vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_3 p{
+      font-weight: 600;
+    font-size: 1.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_3{
+  width: 100%;
+}
+
+ /*************************************************/
+   .respostas_educacao_4 h2{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_4 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_4{
+  width: 100%;
+}
+
+ /*************************************************/
+
+    .respostas_educacao_5 h2{
+      font-weight: 600;
+    font-size: 18px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_5 p{
+      font-weight: 600;
+    font-size: 14px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_5{
+  width: 100%;
+}
+
+ /*************************************************/
+.opcao1{
+padding: 2px;
+    position: absolute;
+    top: 32%;
+    left: 9%;
+    background-color: white;
+    width: 85%;
+    height: 8%;
+    line-height: 0.9;
+}
+.opcao2{
+padding: 2px;
+    position: absolute;
+    top: 6.2%;
+    width: 84%;
+    left: 8.8%;
+    height: 27%;
+}
+.opcao3{
+    padding: 2px;
+    position: absolute;
+    top: 40%;
+    left: 51%;
+    background-color: white;
+    width: 27%;
+    height: 21%;
+}
+.opcao4{
+padding: 2px;
+    position: absolute;
+    top: 40%;
+    left: 8.8%;
+    background-color: white;
+    width: 42.2%;
+    height: 21%;
+}
+.opcao5{
+    padding: 2px;
+    position: absolute;
+    top: 62%;
+    right: 37%;
+    background-color: white;
+    width: 26%;
+    height: 19%;
+}
+.opcao6{
+padding: 2px;
+    position: absolute;
+    top: 62%;
+    right: 7.2%;
+    background-color: white;
+    width: 30.2%;
+    height: 19%;
+}
+/***********************************************/
+
+/***************** modelo 2 **********************/
+.respostas_educacao_10 h2{
+      font-weight: 600;
+    font-size: 2.4vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_10 p{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_10{
+  width: 100%;
+}
+ /**********************************************/
+
+ .respostas_educacao_20 h2{
+      font-weight: 600;
+    font-size: 2.5vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_20 p{
+      font-weight: 600;
+    font-size: 1.9vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_20{
+  width: 100%;
+}
+
+ /*************************************************/
+
+  .respostas_educacao_30 h2{
+      font-weight: 600;
+    font-size: 2.3vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_30 p{
+      font-weight: 600;
+    font-size: 1.4vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_30{
+  width: 100%;
+}
+
+ /*************************************************/
+   .respostas_educacao_40 h2{
+      font-weight: 600;
+    font-size: 1.8vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_40 p{
+      font-weight: 600;
+    font-size: 1.2vw;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_40{
+  width: 100%;
+}
+
+ /*************************************************/
+
+    .respostas_educacao_50 h2{
+      font-weight: 600;
+    font-size: 18px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_educacao_50 p{
+      font-weight: 600;
+    font-size: 14px;
+    font-family: lorem;
+    margin-bottom: 0;
+}
+.respostas_50{
+  width: 100%;
+}
+
+ /*************************************************/
+.opcao11{
+padding: 2px;
+    position: absolute;
+    top: 7%;
+    left: 65%;
+    background-color: white;
+    width: 29%;
+    height: 20%;
+}
+.opcao21{
+padding: 2px;
+    position: absolute;
+    top: 6%;
+    width: 55%;
+    left: 9%;
+    height: 35%;
+}
+.opcao31{
+    padding: 2px;
+    position: absolute;
+    top: 41%;
+    left: 9%;
+    background-color: white;
+    width: 29%;
+    height: 20%;
+}
+.opcao41{
+padding: 2px;
+    position: absolute;
+    top: 41%;
+    left: 38%;
+    background-color: white;
+    width: 57%;
+    height: 20%;
+}
+.opcao51{
+padding: 2px;
+    position: absolute;
+    top: 62%;
+    right: 35.8%;
+    background-color: white;
+    width: 28.2%;
+    height: 17%;
+}
+.opcao61{
+padding: 2px;
+    position: absolute;
+    top: 62%;
+    right: 5%;
+    background-color: white;
+    width: 31%;
+    height: 32%;
+}
+/***********************************************/
+
+ /*************************************************/
+}

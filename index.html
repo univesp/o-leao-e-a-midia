@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="assets/fb-share.png">
+  <meta name="author" content="Univesp">
+
+  <meta name="description" property="og:description"
+  content="">
+
+  <title>Univesp | O leão e a mídia</title>
+
+  <link rel="shortcut icon" href="https://apps.univesp.br/common/favicon.ico" type="image/x-icon"/>
+  <!-- Arquivos Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!-- Ícones por Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Ícones por Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Tipografia institucional por Google Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700|Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <!--<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Bebas+Neue&family=Crimson+Pro:wght@600;700;800;900&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> -->
+
+
+  <!-- Compartilhamento por jsSocials -->
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+
+  <!-- Animate CSS. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <link rel="stylesheet" href="https://apps.univesp.br/common/animate.css"> -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://apps.univesp.br/common/rea-geral-2.1.css">
+  <!-- <link rel="stylesheet" href="../common/rea-geral-2.1.css">   -->
+  <link rel="stylesheet" href="stylesheets/nav_footer.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
+
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">William Kimura</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">23300.0000000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Celso Roberto Lourenco</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100A38F8AD45AFCC2449EE864BD78216A31</mso:ContentTypeId>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body class="d-flex flex-column">
+
+  <!-- Utilizar essa DIV caso o REA não se adapte a todos os tamanhos de tela -->
+  <!-- <div class="esconder-tela-pequena"> -->
+
+  <!-- Menu -->
+  <!--///////////////////////////////////////////////////////////////
+  Classe para nav
+  - padrão => header estático
+  - class="header-dinamico" => header possui posição fixa e é mostrado apenas quando a página está no topo (necessário ajustar padding ou margin superior e inferior do main).
+  //////////////////////////////////////////////////////////////////-->
+  <!-- <nav class="header-dinamico"> -->
+  <nav>
+    <div class="container">
+      <!-- Logo -->
+      <div class="logo">
+        <a class="pularNavegacao" href="#conteudoPrincipal">Pular para Conteúdo Principal</a>
+        <a href="https://univesp.br/" target="_blank">
+          <img src="https://apps.univesp.br/common/traco-negativa.svg" alt="Link para site institucional. Logotipo da universidade formado pela palavra Univesp, sendo a letra V estilizada.">
+          <!-- outras opções de img src: colorida-negativa.svg, traco-positiva.svg, traco-negativa.svg -->
+        </a>
+      </div>
+      <!-- Compartilhamento -->
+      <ul class="nav justify-content-end">
+        <li class="nav-item dropdown" style="margin: 0;">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Opções de Compartilhamento">share</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="sharing"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+    <main id="conteudoPrincipal">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-3"></div>
+          <div class="col-12 col-lg-6" style="text-align:center;">
+            <img class="espaco2 arte1" src="assets/arte1.png">
+            <img class="espaco2 versao_mob arte2" src="assets/arte2.png" style="display:none;">
+          </div>
+          <div class="col-12 col-lg-3"></div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6 intro">
+            <div class="texto1">
+              <p>Uma conhecida fábula africana diz que havia um menino muito bom chamado Jabulani. Era tão bom que não sabia dizer não para alguém que lhe pedisse ajuda.</p> 
+
+              <p>Certo dia, o menino encontrou um leão em uma jaula. Estava preso há alguns dias, com fome e cansado. Depois de o leão insistir e prometer que não faria nada de mal a ele, Jabulani o soltou. Mas o animal se aprontou para comê-lo.</p>
+
+              <p>O menino convenceu o leão a perguntar aos outros animais o que seria certo fazer. Todos os animais encontrados no caminho disseram que era certo o leão comer o menino. Menos o chacal, que disse que era preciso entender melhor a situação antes de decidir.</p>  
+
+              <p>Voltaram para perto da armadilha e, quando chegaram lá, o chacal convenceu o leão a entrar na jaula novamente. Assim que entrou, o menino trancou o leão mais uma vez.</p>
+
+              <p>Teria algum vilão nessa história? Seria o leão que não quis cumprir sua promessa? Ou o chacal que enganou? Como os jornais contariam essa história? </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 intro">
+            <img class="espaco2 arte2 versao_desk" src="assets/arte2.png">
+          </div>
+        </div>
+        <div class="row" style="padding-bottom:20px;">
+
+          <div class="col-12 col-lg-6">
+            <div style="text-align: center;"><a target="_blank" href="assets/roteiro.pdf"><img class="arte3c" src="assets/arte3c.png"></a></div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div style="text-align: center;"><img class="arte3" src="assets/arte3b.png"></div>
+          </div>
+
+        </div>
+      </div>
+    <section id="parte1" style="display: none;padding-top:30px;">
+    <div class="container-fluid degrade1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <img class="espaco1 arte4" src="assets/arte4.png">
+          </div>
+          <div class="col-12 col-lg-8" style="display: flex;
+    align-items: end;
+    justify-content: end;">
+            <div class="subtitulo"><span class="span1">COMO A MÍDIA</span><br><span class="span2">COMUNICA?</span></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-12 intro">
+            <div class="texto1">
+               <p>A gente tem a tendência a considerar as coisas que nos cercam como naturais. Mas não são!</p> 
+
+              <p>Se você comparar a primeira página dos jornais de um mesmo dia, ou a tela inicial de portais jornalísticos, vai perceber que, apesar de divulgarem praticamente as mesmas notícias, elas são apresentadas de forma diferente, com <span class="highlight">graus de importância diferentes</span>.</p> 
+
+              <p style="margin-bottom: 0;">Essas diferenças nascem de escolhas feitas pelos editores.</p>
+
+
+
+              <!--************************-->
+              <div class="tabs">
+                <div class="tab">
+                  <input type="checkbox" id="chck6" style="opacity: 0;">
+                  <label class="tab-label" for="chck6"><p>Para refletir: Ética e escolhas pessoais</p></label>
+                  <div class="tab-content">
+                    <div class="container">
+                      <div class="row d-flex justify-content-left">
+                        <div class="col-12 col-lg-12">
+                          <p style="padding-top:10px;">Ao longo da história a <span class="highlight">Ética</span> foi definida de muitas formas. De maneira simplificada podemos dizer que ela é uma reflexão sobre as ações de um indivíduo em sua relação com outros indivíduos. E a pergunta que as pessoas acabam se fazendo é: estou agindo certo ou errado?</p> 
+                          <p><span class="highlight">Agir certo ou errado</span> não é, necessariamente, <span class="highlight">seguir regras</span>. É que as regras podem mudar, o que foi combinado pode ser descombinado e, então, o que parecia certo vira errado e vice-versa.</p>
+                            <p>Por isso, ao refletir sobre a própria ação particular, <span class="highlight">sobre as escolhas que faz</span>, a pessoa precisa ter claro que essas escolhas <span class="highlight">vão interferir na vida das outras pessoas</span>, de forma mais ou menos positiva ou negativa. E é necessário ter consciência disso ao agir.</p>
+                            <div style="text-align:right;"><label class="" for="chck6"><p style="background-color:#f7bc67;padding: 4px;
+    font-size: 12px;
+    font-weight: 600; cursor: pointer;">Recolher</p></label></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--************************-->
+
+              <p>De forma geral, em cada empresa de comunicação, há sempre dois editores trabalhando em conjunto: o editor chefe, que seleciona o que deve ser comunicado e qual a importância que deve ser dada a cada notícia, e o editor de arte, que busca a forma mais eficiente de comunicar.</p> 
+
+              <p><span class="highlight">Veja esses exemplos estilizados de primeira página de jornal e de tela inicial de um portal de notícias.</span> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color: #f7bc67;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false" style="width: 100%; text-align: center; padding-bottom: 30px;padding-top: 30px;">
+            <div class="carousel-inner">
+              <div class="carousel-item primeira_unica altura active">
+                    <img class="arte5" src="assets/arte5.png">
+              </div>
+              <div class="carousel-item meio altura">
+                    <img class="arte5" src="assets/arte5bb.png">
+              </div>
+              <div class="carousel-item meio altura">
+                    <img class="arte5" src="assets/Layout3b-Site.png">
+              </div>
+              <div class="carousel-item meio altura">
+                    <img class="arte5" src="assets/Layout4b-Site.png">
+              </div>
+
+            </div>
+            <div class="seta d-flex justify-content-between" style="padding-top: 2%; padding-bottom: 2%;" align="center">
+              <div class="p-2">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="botao_voltar" aria-hidden="true"><img class="seta_voltar" src="assets/seta_voltar.png"></span>
+                </a>
+              </div>
+              <div class="p-2">
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="botao_proximo" aria-hidden="true"><img class="seta_avancar" src="assets/seta_avancar.png"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid espaco3">
+      <div class="container">
+        <div class="row borda1">
+          <div class="col-12 col-lg-6" style="text-align:center;">
+            <img class="arte6" src="assets/arte6.png">
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="subtitulo2"><p>ZONAS PRIMÁRIAS E ZONAS MORTAS</p></div>
+            <p>No mundo ocidental, por conta da nossa forma de escrever, fomos acostumados a olhar para um material informativo visual de forma que os olhos percorrem um certo caminho instintivo.</p> 
+
+            <p>Segundo Antonio Celso Collaro, no livro <i>Produção gráfica: arte e técnica na direção de arte</i>, ao observar um jornal ou tela inicial de um site começamos a olhar pelo canto superior esquerdo e seguimos em diagonal até o canto inferior direito. Esses dois pontos são chamados de <span class="highlight">zonas ópticas primárias</span>: nesses pontos, os elementos posicionados acabam sendo percebidos mais facilmente. </p> 
+
+            <p style="margin-bottom:0;"><span class="highlight">Além dessas duas zonas primárias, Collaro cita duas zonas chamadas de mortas</span>, isto é, que por si só não costumam atrair tanto a atenção: o canto superior direito e, como menos perceptível ainda, o canto inferior direito. Elementos posicionados nesses locais podem passar despercebidos, caso o editor de arte não introduza elementos que chamem a nossa atenção. </p>
+                          <!--************************-->
+                      <div class="tabs">
+                        <div class="tab">
+                          <input type="checkbox" id="chck11" style="opacity: 0;">
+                          <label class="tab-label" for="chck11"><p>Em tempo: Páginas web e celulares</p></label>
+                          <div class="tab-content">
+                            <div class="container">
+                              <div class="row d-flex justify-content-left">
+                                <div class="col-12 col-lg-12">
+                                  <p style="padding-top: 15px;">Com o <span class="highlight">uso</span> cada vez mais constante das <span class="highlight">telas de computador e dos celulares para acessar todo tipo de informação</span>, pesquisadores como Jakob Nielsen e Don Norman perceberam uma alteração na forma das pessoas lerem quando estão usando esses dispositivos.</p>
+
+                                  <p>Segundo os pesquisadores da empresa de consultoria em experiência do usuário, que eles fundaram, existem alguns padrões de leitura: o mais citado é o <span class="highlight">padrão em F</span>.</p>
+
+                                  <p>O usuário começa lendo a <span class="highlight">parte superior</span> da área de conteúdo de um site com um <span class="highlight">movimento horizontal</span> da esquerda para a direita. Em seguida, o olhar desce um pouco e o usuário faz um segundo movimento horizontal cobrindo uma área menor. Por fim, o <span class="highlight">olhar desce pelo restante da página</span>, buscando pontos de interesse.</p>
+
+                                  <p>Dessa forma, as <span class="highlight">primeiras linhas</span> bem como as <span class="highlight">primeiras palavras</span> de cada linha <span class="highlight">recebem mais atenção</span> que as outras.</p>
+                                  <div style="text-align:right;"><label class="" for="chck11"><p style="background-color:#f7bc67;padding: 4px;
+    font-size: 12px;
+    font-weight: 600; cursor: pointer;">Recolher</p></label></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+              <!--************************-->
+          </div>
+        </div>
+        <div class="row borda2">
+          <div class="col-12 col-lg-6">
+            <div class="subtitulo2"><p>ALTERANDO A PERCEPÇÃO</p></div>
+            <p style="margin-bottom: 0;">Embora existam essas zonas, que atraem o olhar de forma mais ou menos intensa, existem outros fatores que podem influenciar a nossa percepção e chamar mais a nossa atenção. <span class="highlight">Há fatores objetivos e pelo menos um fator subjetivo.</span></p> 
+
+              <!--************************-->
+                      <div class="tabs">
+                        <div class="tab">
+                          <input type="checkbox" id="chck5" style="opacity: 0;">
+                          <label class="tab-label" for="chck5"><p>Saiba mais: Gestalt e percepção</p></label>
+                          <div class="tab-content">
+                            <div class="container">
+                              <div class="row d-flex justify-content-left">
+                                <div class="col-12 col-lg-12">
+                                  <p style="padding-top: 15px;"><span class="highlight">Conceitos da teoria psicológica da Gestalt</span>, que se debruçou sobre a forma como as pessoas percebem a realidade ao seu redor, <span class="highlight">são usadas pelos editores de arte</span> dos veículos informativos <span class="highlight">para que a comunicação aconteça de forma eficiente</span>.</p> 
+                                  <p>A Gestalt descobriu que as <span class="highlight">pessoas percebem um objeto como algo inteiro, um todo, e não como uma mera soma de partes ou pedaços</span>. Além disso, esse <span class="highlight">objeto não é percebido desconectado do contexto</span> em que está inserido: o contexto também faz parte da percepção.</p> 
+                                  <p>Nossa percepção trabalha buscando <span class="highlight">padrões, ela agrupa elementos</span> que estão próximos ou que são semelhantes. Equilíbrio, simetria, estabilidade, simplicidade e regularidade são características buscadas nos objetos percebidos, segundo a Gestalt.</p>
+                                  <div style="text-align:right;"><label class="" for="chck5"><p style="background-color:#f7bc67;padding: 4px;
+    font-size: 12px;
+    font-weight: 600; cursor: pointer;">Recolher</p></label></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+              <!--************************-->
+
+            <p>Entre os fatores objetivos, o <span class="highlight">uso das cores e das formas</span>, inclusive as formas presentes nas <span class="highlight">fotografias, ilustrações e infográficos</span>, são usados para chamar a atenção do leitor e conferir mais importância a determinados conteúdos do que a outros.</p> 
+
+            <p>Além desses, <span class="highlight">o espaço é um fator muito relevante.</span> Esse é um fator que pode ser extrapolado para uma situação não visual ou, pelo menos, não impressa, como um noticiário de TV ou rádio. Quanto maior o espaço visual (ou tempo) destinado a uma notícia, mais importante ela aparenta ser para o leitor ou ouvinte.</p>
+
+            <p><span class="highlight">O fator subjetivo, mas não menos determinante, diz respeito aos interesses e expectativas</span> que a gente tem. Os assuntos pelos quais me interesso, os assuntos que eu busco encontrar em um jornal ou site, vão chamar minha atenção, mesmo que estejam em uma posição visual menos privilegiada.</p>
+          </div>
+          <div class="col-12 col-lg-6" style="text-align:center;">
+          <img class="arte7" src="assets/arte7.png">
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color: #1da1f2;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval="false" style="width: 100%; text-align: center; padding-bottom: 30px;padding-top: 30px;">
+            <div class="carousel-inner">
+              <div class="carousel-item primeira_unica altura active">
+                    <img class="arte5" src="assets/arte11b.png">
+              </div>
+              <div class="carousel-item meio altura">
+                    <img class="arte5" src="assets/arte11.png">
+              </div>
+              <div class="carousel-item meio altura">
+                    <img class="arte5" src="assets/arte11d2.png">
+              </div>
+              <div class="carousel-item meio altura">
+                    <img class="arte5" src="assets/arte11c2.png">
+              </div>
+            </div>
+            <div class="seta2 d-flex justify-content-between" style="padding-top: 2%; padding-bottom: 2%;" align="center">
+              <div class="p-2">
+                <a class="carousel-control-prev2" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <span class="botao_voltar2" aria-hidden="true"><img class="seta_voltar" src="assets/seta_voltar.png"></span>
+                </a>
+              </div>
+              <div class="p-2">
+                <a class="carousel-control-next2" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <span class="botao_proximo2" aria-hidden="true"><img class="seta_avancar" src="assets/seta_avancar.png"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-12 editor">
+            <img class="arte8" src="assets/arte8.png">
+          </div>
+        </div>
+      </div>
+    <section id="parte2" style="display:none;">
+    <div class="container-fluid degrade2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-12" style="padding:0;">
+            <div class="subtitulo"><span class="span3">VOCÊ É O </span><br><span class="span4">EDITOR</span></div>
+          </div>
+        </div>
+        <div class="row texto2">
+          <div class="col-12 col-lg-6 intro">
+            <img class="espaco1 arte9" src="assets/arte9.png">
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="">
+               <p style="margin-bottom:0;">Editores lidam com escolhas: <span class="highlight2">selecionam, adequam e propõem</span> para a leitura notícias, textos, livros entre outras coisas. A posição de uma matéria na página ou no site, o espaço que ela ocupa, as palavras utilizadas propõem ao leitor uma forma de enxergar e entender os fatos. Como qualquer outra leitura de mundo, não é neutra, não é totalmente objetiva. É uma visão parcial que se constrói a partir da posição em que a pessoa está, das expectativas e interesses que ela tem.</p> 
+
+                <!--************************-->
+              <div class="tabs">
+                <div class="tab">
+                  <input type="checkbox" id="chck7" style="opacity: 0;">
+                  <label class="tab-label" for="chck7"><p>Para pensar: Ideologia e neutralidade</p></label>
+                  <div class="tab-content altura">
+                    <div class="container">
+                      <div class="row d-flex justify-content-left">
+                        <div class="col-12 col-lg-12">
+                          <p style="padding-top:15px;">Outra palavra marcada por muitas definições é <span class="highlight2">Ideologia</span>. Infelizmente essa palavra ganhou um peso negativo muito grande. Por ideologia podemos entender uma visão de mundo, um conjunto de ideias e valores compartilhados por um grupo de pessoas.</p> 
+                          <p>Como as pessoas percebem o mundo a partir de pontos de referência diferentes, não há uma única visão de mundo. E é aí que mora o perigo: acreditar que o próprio ponto de referência é o único, ou o único correto. <span class="highlight2">Quem acredita que a própria visão de mundo é a única correta, chama de ideológica a visão de mundo do outro, com a qual não concorda</span>.</p> 
+                          <p>Como há muitas visões de mundo, ou ideologias, <span class="highlight2">não é possível falar em neutralidade, porque as nossas escolhas vão sempre estar fundamentadas na nossa visão de mundo, que não é a única</span>.</p>
+                          <p><span class="highlight2">Não se deve, contudo, cair em um relativismo fácil</span>, justificando qualquer visão de mundo só porque é a visão de outro grupo. É possível, sim, fazer uma crítica a uma determinada visão de mundo, desde que se tenha a humildade intelectual de buscar entender seus fundamentos e a forma como foi construída, e não criticar essa visão a partir de frases feitas e clichês.</p>
+                          <div style="text-align:right;"><label class="" for="chck7"><p style="background-color:#f7bc67;padding: 4px;
+    font-size: 12px;
+    font-weight: 600; cursor: pointer;">Recolher</p></label></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--************************-->
+
+              <p style="margin-bottom:0;">Os editores <span class="highlight2">representam o pensamento e os interesses das empresas de comunicação.</span> E não vai aqui nenhum juízo antecipado de valor. Todas as pessoas possuem uma visão de mundo, construída na relação com outras pessoas. É uma visão compartilhada, mas nunca 100% compartilhada, com um certo grupo de pessoas. Além disso, todas as pessoas possuem interesses que movem suas ações e, como a visão de mundo, esses interesses são também compartilhados com outros.</p> 
+
+              <!--************************-->
+              <div class="tabs">
+                <div class="tab">
+                  <input type="checkbox" id="chck8" style="opacity: 0;">
+                  <label class="tab-label" for="chck8"><p>Contextualizando: o que é uma notícia?</p></label>
+                  <div class="tab-content">
+                    <div class="container">
+                      <div class="row d-flex justify-content-left">
+                        <div class="col-12 col-lg-12">
+                          <p>A <span class="highlight2">notícia é um texto produzido por um veículo de comunicação</span>, como um jornal, programa de TV, site ou blog, e que relata fatos de interesse público em linguagem clara, fidedigna e aparentemente neutra.</p>
+                          <p>De modo geral, uma notícia <span class="highlight2">responde àquelas costumeiras perguntas</span>: o quê? quem? quando? onde? como? por quê? Ao responder a essas perguntas, redige <span class="highlight2">na terceira pessoa</span>, faz uso de <span class="highlight2">palavras que indicam precisão</span>, como números, <span class="highlight2">evita</span> o uso de <span class="highlight2">adjetivos</span> e <span class="highlight2">se exime de</span> dar <span class="highlight2">opiniões</span>, fornecendo dados para que o leitor avalie por si.</p>
+                          <p>A estrutura básica de uma notícia é composta por alguns blocos:</p>
+                          <ul>
+                           <li><span class="highlight2">título ou manchete</span>, cuja função é mais chamar a atenção para a notícia do que propriamente informar;</li>
+                           <li><span class="highlight2">lead (lide) ou chamada</span>, que traz a informação mais importante, funcionando como uma síntese e, ao mesmo tempo, chamariz para a leitura;</li>
+                           <li><span class="highlight2">corpo da notícia</span>.</li>
+                          </ul>
+                          <p>Além desses blocos, também podem aparecer os <span class="highlight2">box ou retrancas</span>, que são matérias auxiliares, <span class="highlight2">fotos e suas legendas, infográficos, e destaques ou olhos</span>, que são citações do próprio texto em tamanho maior, entre outros.</p>
+                          <div style="text-align:right;"><label class="" for="chck8"><p style="background-color:#f7bc67;padding: 4px;font-size: 12px;font-weight: 600; cursor: pointer;">Recolher</p></label></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--************************-->
+            </div>
+          </div>
+  
+            <div class="col-12 col-lg-5 partida" style="margin-bottom: 10px;">
+              <p><span class="highlight2">Agora você é convidado a se colocar no lugar de um editor.</span> Escolha um template:</p>
+                <div style="display:inline-flex;padding-bottom: 10px;">
+                  <div class="botao_escolha clicked modelo0">X</div>
+                  <div class="habilita botao_escolha modelo1">1</div>
+                  <div class="habilita botao_escolha modelo2">2</div>
+                  <!--<div class="habilita botao_escolha modelo3">3</div>-->
+                </div>
+
+              <!--************************-->
+            <ul class="accordion lista">
+  <li>
+    <a style="text-decoration: none;color: inherit;display: flex;align-items: center;" class="toggle toggle1 justify-content-between" href=#>Coloque em ordem de prioridade, seus interesses:<i class="toggle2 large material-icons">chevron_right</i></a>
+    <div class="inner">
+      <div class="grupo" style="padding-top: 15px;">
+                            <div class="one botao_escolha educacao botao_educacao_um">1</div>
+                            <div class="two botao_escolha educacao botao_educacao_dois">2</div>
+                            <div class="three botao_escolha educacao botao_educacao_tres">3</div>
+                            <p>Educação</p>
+                          </div><br>
+                          
+
+                          <div class="grupo">
+                          <div class="one botao_escolha entretenimento botao_entretenimento_um">1</div>
+                          <div class="two botao_escolha entretenimento botao_entretenimento_dois">2</div>
+                          <div class="three botao_escolha entretenimento botao_entretenimento_tres">3</div>
+                          <p>Entretenimento</p>
+                          </div><br>
+                          
+
+                          <div class="grupo">
+                          <div class="one botao_escolha esporte botao_esporte_um">1</div>
+                          <div class="two botao_escolha esporte botao_esporte_dois">2</div>
+                          <div class="three botao_escolha esporte botao_esporte_tres">3</div>
+                          <p>Esporte</p>
+    </div>
+  </li>
+  
+  <li>
+    <a style="text-decoration: none;color: inherit;display: flex;align-items: center;" class="toggle3 toggle justify-content-between" href=#>Agora defina o enfoque que você quer dar para cada notícia:<i class="toggle4 large material-icons">chevron_right</i></a>
+    <div class="inner">
+      <div class="botao educacao" style="padding-top: 12px;font-size: 13px;"><p><strong>"I"</strong> indiferente <strong>"N"</strong> negativa <strong>"P"</strong> positiva</p></div>
+
+                          <div class="grupo">
+                            <div class="botao_escolha desarma_educacao2 2botao_educacao_um">I</div>
+                            <div class="botao_escolha desarma_educacao2 2botao_educacao_dois">N</div>
+                            <div class="botao_escolha desarma_educacao2 2botao_educacao_tres">P</div>
+                            <p>Educação</p>
+                          </div><br>
+                          <div class="grupo">
+                            <div class="botao_escolha desarma_entretenimento2 2botao_entretenimento_um">I</div>
+                          <div class="botao_escolha desarma_entretenimento2 2botao_entretenimento_dois">N</div>
+                          <div class="botao_escolha desarma_entretenimento2 2botao_entretenimento_tres">P</div>
+                            <p>Entretenimento</p>
+                          </div><br>
+                          <div class="grupo">
+                            <div class="botao_escolha desarma_esporte2 2botao_esporte_um">I</div>
+                          <div class="botao_escolha desarma_esporte2 2botao_esporte_dois">N</div>
+                          <div class="botao_escolha desarma_esporte2 2botao_esporte_tres">P</div>
+                            <p>Esporte</p>
+    </div>
+  </li>
+</ul>
+
+
+              <!--************************-->
+            </div>
+
+<!-- template 0 -->
+            <div class="col-12 col-lg-7 template0">
+              <div class="row">
+                  <div class="col-12">
+                    <img class="espaco10 arte50" src="assets/template0.png">
+                  </div>
+              </div>
+            </div>
+
+<!-- template 1 -->
+
+            <div class="col-12 col-lg-7 template1" style="display:none; background-color: white;">
+
+                     <div class="respostas_educacao_1">
+
+                    <!--   /***********************************************/ -->
+                    <img class="destaque0 template1a respostas_1 arte50" src="assets/template1a.png">
+
+
+                    <img class="destaque1 arte50 educacao_a" src="assets/educacao_a.png" style="display:none;">
+                    <img class="destaque1 arte50 entretenimento_a" src="assets/entretenimento_a.png" style="display:none;">
+                    <img class="destaque1 arte50 esporte_a" src="assets/esporte_a.png" style="display:none;">
+                    
+
+                    <img class="destaque1 1educacao_indiferente arte50" src="assets/1educacao_indiferente.png" style="display:none;"> 
+                    <img class="destaque1 1educacao_negativo arte50" src="assets/1educacao_negativo.png" style="display:none;">
+                    <img class="destaque1 1educacao_positivo arte50" src="assets/1educacao_positivo.png" style="display:none;">
+
+                    <img class="destaque1 1entretenimento_indiferente arte50" src="assets/1entretenimento_indiferente.png" style="display:none;"> 
+                    <img class="destaque1 1entretenimento_negativo arte50" src="assets/1entretenimento_negativo.png" style="display:none;">
+                    <img class="destaque1 1entretenimento_positivo arte50" src="assets/1entretenimento_positivo.png" style="display:none;">
+
+                    <img class="destaque1 1esporte_indiferente arte50" src="assets/1esporte_indiferente.png" style="display:none;"> 
+                    <img class="destaque1 1esporte_negativo arte50" src="assets/1esporte_negativo.png" style="display:none;">
+                    <img class="destaque1 1esporte_positivo arte50" src="assets/1esporte_positivo.png" style="display:none;">
+
+                   <!--   /***********************************************/ -->
+
+
+                     <!--   /***********************************************/ -->
+                    <img class="destaque2 arte50 educacao_b" src="assets/educacao_b.png" style="display:none;">
+                    <img class="destaque2 arte50 entretenimento_b" src="assets/entretenimento_b.png" style="display:none;">
+                    <img class="destaque2 arte50 esporte_b" src="assets/esporte_b.png" style="display:none;">
+
+
+                    <img class="destaque00 respostas_1 arte50" src="assets/template1b.png">
+                    <img class="destaque2 2educacao_indiferente arte50" src="assets/2educacao_indiferente.png" style="display:none;"> 
+                    <img class="destaque2 2educacao_negativo arte50" src="assets/2educacao_negativo.png" style="display:none;">
+                    <img class="destaque2 2educacao_positivo arte50" src="assets/2educacao_positivo.png" style="display:none;">
+
+                    <img class="destaque2 2entretenimento_indiferente arte50" src="assets/2entretenimento_indiferente.png" style="display:none;"> 
+                    <img class="destaque2 2entretenimento_negativo arte50" src="assets/2entretenimento_negativo.png" style="display:none;">
+                    <img class="destaque2 2entretenimento_positivo arte50" src="assets/2entretenimento_positivo.png" style="display:none;">
+
+                    <img class="destaque2 2esporte_indiferente arte50" src="assets/2esporte_indiferente.png" style="display:none;"> 
+                    <img class="destaque2 2esporte_negativo arte50" src="assets/2esporte_negativo.png" style="display:none;">
+                    <img class="destaque2 2esporte_positivo arte50" src="assets/2esporte_positivo.png" style="display:none;">
+                   <!--   /***********************************************/ -->
+                  
+     
+                     <!--   /***********************************************/ -->
+
+                    <img class="destaque3 arte50 educacao_c" src="assets/educacao_c.png" style="display:none;">
+                    <img class="destaque3 arte50 entretenimento_c" src="assets/entretenimento_c.png" style="display:none;">
+                    <img class="destaque3 arte50 esporte_c" src="assets/esporte_c.png" style="display:none;">
+
+
+                    <img class="destaque000 respostas_1 arte50" src="assets/template1c.png">
+                    <img class="destaque3 3educacao_indiferente arte50" src="assets/3educacao_indiferente.png" style="display:none;"> 
+                    <img class="destaque3 3educacao_negativo arte50" src="assets/3educacao_negativo.png" style="display:none;">
+                    <img class="destaque3 3educacao_positivo arte50" src="assets/3educacao_positivo.png" style="display:none;">
+
+                    <img class="destaque3 3entretenimento_indiferente arte50" src="assets/3entretenimento_indiferente.png" style="display:none;"> 
+                    <img class="destaque3 3entretenimento_negativo arte50" src="assets/3entretenimento_negativo.png" style="display:none;">
+                    <img class="destaque3 3entretenimento_positivo arte50" src="assets/3entretenimento_positivo.png" style="display:none;">
+
+                    <img class="destaque3 3esporte_indiferente arte50" src="assets/3esporte_indiferente.png" style="display:none;"> 
+                    <img class="destaque3 3esporte_negativo arte50" src="assets/3esporte_negativo.png" style="display:none;">
+                    <img class="destaque3 3esporte_positivo arte50" src="assets/3esporte_positivo.png" style="display:none;">
+                   <!--   /***********************************************/ -->
+
+                   </div></div>
+<!-- ******************************************************************************************* -->
+
+
+
+<!-- template 2 -->
+                    <div class="col-12 col-lg-7 template2" style="display:none; background-color: white;">
+
+                     <div class="respostas_educacao_1">
+
+                    <!--   /***********************************************/ -->
+                    <img class="destaque0 template2a respostas_1 arte50" src="assets/template2a.png">
+
+
+                    <img class="destaque1 arte50 educacao_a2" src="assets/educacao_a2.png" style="display:none;">
+                    <img class="destaque1 arte50 entretenimento_a2" src="assets/entretenimento_a2.png" style="display:none;">
+                    <img class="destaque1 arte50 esporte_a2" src="assets/esporte_a2.png" style="display:none;">
+                    
+
+                    <img class="destaque1 1educacao_indiferente2 arte50" src="assets/1educacao_indiferente2.png" style="display:none;"> 
+                    <img class="destaque1 1educacao_negativo2 arte50" src="assets/1educacao_negativo2.png" style="display:none;">
+                    <img class="destaque1 1educacao_positivo2 arte50" src="assets/1educacao_positivo2.png" style="display:none;">
+
+                    <img class="destaque1 1entretenimento_indiferente2 arte50" src="assets/1entretenimento_indiferente2.png" style="display:none;"> 
+                    <img class="destaque1 1entretenimento_negativo2 arte50" src="assets/1entretenimento_negativo2.png" style="display:none;">
+                    <img class="destaque1 1entretenimento_positivo2 arte50" src="assets/1entretenimento_positivo2.png" style="display:none;">
+
+                    <img class="destaque1 1esporte_indiferente2 arte50" src="assets/1esporte_indiferente2.png" style="display:none;"> 
+                    <img class="destaque1 1esporte_negativo2 arte50" src="assets/1esporte_negativo2.png" style="display:none;">
+                    <img class="destaque1 1esporte_positivo2 arte50" src="assets/1esporte_positivo2.png" style="display:none;">
+
+                   <!--   /***********************************************/ -->
+
+
+                     <!--   /***********************************************/ -->
+                    <img class="destaque2 arte50 educacao_b2" src="assets/educacao_b2.png" style="display:none;">
+                    <img class="destaque2 arte50 entretenimento_b2" src="assets/entretenimento_b2.png" style="display:none;">
+                    <img class="destaque2 arte50 esporte_b2" src="assets/esporte_b2.png" style="display:none;">
+
+
+                    <img class="destaque00 template2b respostas_1 arte50" src="assets/template2b.png">
+                    <img class="destaque2 2educacao_indiferente2 arte50" src="assets/2educacao_indiferente2.png" style="display:none;"> 
+                    <img class="destaque2 2educacao_negativo2 arte50" src="assets/2educacao_negativo2.png" style="display:none;">
+                    <img class="destaque2 2educacao_positivo2 arte50" src="assets/2educacao_positivo2.png" style="display:none;">
+
+                    <img class="destaque2 2entretenimento_indiferente2 arte50" src="assets/2entretenimento_indiferente2.png" style="display:none;"> 
+                    <img class="destaque2 2entretenimento_negativo2 arte50" src="assets/2entretenimento_negativo2.png" style="display:none;">
+                    <img class="destaque2 2entretenimento_positivo2 arte50" src="assets/2entretenimento_positivo2.png" style="display:none;">
+
+                    <img class="destaque2 2esporte_indiferente2 arte50" src="assets/2esporte_indiferente2.png" style="display:none;"> 
+                    <img class="destaque2 2esporte_negativo2 arte50" src="assets/2esporte_negativo2.png" style="display:none;">
+                    <img class="destaque2 2esporte_positivo2 arte50" src="assets/2esporte_positivo2.png" style="display:none;">
+                   <!--   /***********************************************/ -->
+                  
+     
+                     <!--   /***********************************************/ -->
+
+                    <img class="destaque3 arte50 educacao_c2" src="assets/educacao_c2.png" style="display:none;">
+                    <img class="destaque3 arte50 entretenimento_c2" src="assets/entretenimento_c2.png" style="display:none;">
+                    <img class="destaque3 arte50 esporte_c2" src="assets/esporte_c2.png" style="display:none;">
+
+
+                    <img class="destaque000 template2c respostas_1 arte50" src="assets/template2c.png">
+                    <img class="destaque3 3educacao_indiferente2 arte50" src="assets/3educacao_indiferente2.png" style="display:none;"> 
+                    <img class="destaque3 3educacao_negativo2 arte50" src="assets/3educacao_negativo2.png" style="display:none;">
+                    <img class="destaque3 3educacao_positivo2 arte50" src="assets/3educacao_positivo2.png" style="display:none;">
+
+                    <img class="destaque3 3entretenimento_indiferente2 arte50" src="assets/3entretenimento_indiferente2.png" style="display:none;"> 
+                    <img class="destaque3 3entretenimento_negativo2 arte50" src="assets/3entretenimento_negativo2.png" style="display:none;">
+                    <img class="destaque3 3entretenimento_positivo2 arte50" src="assets/3entretenimento_positivo2.png" style="display:none;">
+
+                    <img class="destaque3 3esporte_indiferente2 arte50" src="assets/3esporte_indiferente2.png" style="display:none;"> 
+                    <img class="destaque3 3esporte_negativo2 arte50" src="assets/3esporte_negativo2.png" style="display:none;">
+                    <img class="destaque3 3esporte_positivo2 arte50" src="assets/3esporte_positivo2.png" style="display:none;">
+                   <!--   /***********************************************/ -->
+
+                   
+<!-- ******************************************************************************************* -->
+
+                   
+<!-- ******************************************************************************************* -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid espaco3" style="background-color: #f6f5fa;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-3"></div>
+          <div class="col-12 col-lg-6" style="margin-top: 25px;">
+            <div class="texto1">
+               <p>Depois de experimentar ser um editor, vamos refletir sobre alguns pontos importantes.</p><br>
+              <div style="text-align:center;"><img class="espaco1 arte13" src="assets/arte13.png"></div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3"></div>
+        </div>
+      </div>
+    </section>
+    <section id="parte3" style="display:none;">
+      <div class="container espaco3">
+        <div class="row">
+          <div class="col-12 col-lg-12" style="padding-right: 0;">
+            <div class="subtitulo"><span class="span1">REFLETINDO</span><br><span class="span2">UM POUCO</span></div>
+          </div>
+        </div>
+        <div class="row texto1">
+          <div class="col-12 col-lg-6 alinhar_vertical">
+            <img class="espaco1 arte10" src="assets/arte10.png">
+          </div>
+          <div class="col-12 col-lg-6 intro">
+            <div style="text-align:left;">
+
+                <p>Conforme vamos acompanhando ao longo do tempo uma determinada publicação, é possível perceber qual a visão de mundo que essa publicação compartilha, quais são os interesses que ela defende.</p>
+
+                <p>Como há outras visões de mundo e interesses, é necessário comparar com o que outras publicações dizem.</p> 
+
+                <p>Além disso, é preciso também começar a refletir sobre as consequências provocadas por uma determinada visão de mundo e pela defesa de determinados interesses. Quem ganha e quem perde com isso a curto, médio e longo prazo?</p> 
+
+                <p>Por exemplo, vivemos hoje as consequências de uma exploração desmedida dos chamados recursos naturais, com desmatamento, poluição, aquecimento global, mudanças climáticas.</p>
+
+                <p>Não é uma tarefa fácil se manter informado. Não é fácil se manter bem informado.</p>
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center;"><a target="_blank" href="assets/roteiro.pdf"><img class="arte3d" src="assets/arte3c.png"></a></div>
+      </div>
+    </div>
+    <div class="container-fluid" style="background-color:#171722; padding-bottom: 140px; padding-top: 140px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-5">
+            
+          </div>
+          <div class="col-12 col-lg-7 sub">
+          <div class="subtitulo3">BIBLIOGRAFIA</div>
+           <p>COELHO, Alfredo S.V. Coelho. <i>Em leão com fome dá pra confiar?</i> Histórias e roteiros de Filosofia para crianças. Itupeva: Clube de Autores, 2017. (<a target="_blank" class="link_leao" href="https://clubedeautores.com.br/livro/em-leao-com-fome-da-pra-confiar">https://clubedeautores.com.br/livro/em-leao-com-fome-da-pra-confiar</a>)</p> 
+
+          <p>COELHO, Alfredo S. V. <i>Escolhas, poder e cultura</i>: análise visual de mídia impressa. São Paulo: UNICID, 2013 (notas de aula). Disponível em <a target="_blank" class="link_leao" href="https://prezi.com/p/t376bevf59gj/escolhas-poder-e-cultura-completo/">https://prezi.com/p/t376bevf59gj/escolhas-poder-e-cultura-completo/</a>. Acesso em 07 jun. 2023.</p>
+
+          <p>COELHO, Alfredo S. V. <i>Escolhas, poder e cultura</i>. São Paulo: UNICID, 2013 (notas de aula). Disponível em <a target="_blank" class="link_leao" href="https://mirambae2016.wordpress.com/2013/03/08/escolhas-poder-e-cultura/">https://mirambae2016.wordpress.com/2013/03/08/escolhas-poder-e-cultura/</a>. Acesso em 07 jun. 2023.</p>
+
+          <p>COLLARO, Antonio Celso. <i>Produção gráfica</i>: arte e técnica na direção de arte. 2 ed. São Paulo: Pearson Prentice Hall, 2012. Disponível em: <a target="_blank" class="link_leao" href="https://plataforma.bvirtual.com.br/Leitor/Publicacao/3102/pdf/0">https://plataforma.bvirtual.com.br/Leitor/Publicacao/3102/pdf/0</a>. Acesso em 15 jun. 2023.</p>
+
+          <p>PERNICE, Kara. F-Shaped Pattern of reading on the web: misunderstood, but still relevant (even on mobile). Misunderstood, but still relevant (even on mobile). 2017. Disponível em: <a target="_blank" class="link_leao" href="https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/">https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/</a>. Acesso em: 27 jul. 2023.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    </main>
+
+  <!-- RODAPÉ -->
+  <!--//////////////////////////////////////////////////////
+  Classes prontas p/ footer (podem ser combinadas):
+  padrão => texto e contornos em cinza
+  class = "black" => texto e contornos em preto
+  class = "negativo" => texto e contornos em branco, sobre fundo escuro
+  class = "transparente" => fundo transparente (necessário ajustar cor dos ícones de compartilhamento nos círculos, para bater com a cor de fundo)
+  /////////////////////////////////////////////////////////-->
+  <!-- <footer class="black"> -->
+  <!-- <footer class="negativo"> -->
+  <!-- <footer class="transparente"> -->
+  <!-- <footer class="transparente black"> -->
+  <!-- <footer class="transparente negativo"> -->
+  <footer>
+    <div class="container d-flex justify-content-between">
+
+      <div class="cred-rea">
+        <!-- Comente em caso de adaptação do REA -->
+          <div>Recurso Educacional Aberto (REA) desenvolvido pela <a href="https://univesp.br/" target="blank">Univesp</a>, disponível sob licença <a href="http://apps.univesp.br/common/license_MIT_2020.txt" target="_blank">MIT</a>.
+          Você pode utilizá-lo, compartilhá-lo e modificá-lo.</div>
+          <div><button class="btn btn-link" data-toggle="modal" data-target="#creditos">Créditos</button></div>
+          <div><a href="#" target="_blank" aria-label="GitHub" style="white-space:nowrap;">GitHub <i class="fab fa-github"></i></a></div>
+          <div>Compartilhe: <div class="sharing"></div></div>
+
+        <!-- Descomente em caso de adaptação do REA -->
+        <!-- <p>
+          <span>Recurso Educacional Aberto (REA) adaptado por SEU NOME.</span>
+          <span><a href="#">Versão original da Univesp</a></span>
+        </p> -->
+      </div>
+
+      <!-- FORMULÁRIOS DE AVALIAÇÃO -->
+      <div class="aval-rea d-flex">
+        <!-- AVALIAR RECURSO -->
+        <!-- Atualizar "Nome+do+Recurso" -->
+        <a class="btn btn-secondary" href="https://forms.office.com/r/dGdRNaZvE2" target="_blank">Avaliar este recurso</a>
+        <!-- REPORTAR ERRO -->
+        <!-- Atualizar "O+leão+e+a+mídia" -->
+        <a class="btn btn-secondary" href="https://forms.office.com/r/BU3heRJ9ZP" target="_blank">Reportar erro</a>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Fim do rodapé -->
+
+  <!-- Fim da div .esconder-tela-pequena
+  Utilizar essa div caso o REA não se adapte a todos os formatos de tela -->
+  <!-- </div> -->
+
+  <!-- //////////////////////////////////////////////////////////
+  AVISO =+960px
+  Utilizar caso o REA possua limitações quanto aos tamanhos de tela
+  Caso contrário, deletar
+  ///////////////////////////////////////////////////////////////-->
+  <!-- <div class= "container d-lg-none text-center">
+    <div class="container">
+      <a href="https://univesp.br/" target="_blank">
+        <img src="https://apps.univesp.br/common/logo-univesp-positivo.svg" alt="Logo da Univesp" height="47px" width="135px" class='img-responsive center-block' style="margin-top:4rem">
+      </a>
+    </div>
+    <img src='https://apps.univesp.br/common/aviso-tela.gif' alt="Computador Animado" height="117px" width="160px" class='img-responsive center-block' style="margin-top:3rem">
+    <div style="margin-top:.5rem">
+      <p>
+        <font style=font-family:"Barlow" color="#3b78d1" 'text-center' size="10rem"><b>OPS!</b></font>
+      </p>
+      <p>
+        <font style=font-family:"Verdana" "text-center" size="3rem">Visualize este recurso em um computador, em janela com largura mínima de 992px.</font>
+      </p>
+    </div>
+  </div> -->
+
+  <!-- CRÉDITOS -->
+  <div class="modal fade" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <h6>Governo do Estado de São Paulo</h6>
+          <p>Secretaria de Desenvolvimento Econômico</p>
+
+          <h6>UNIVERSIDADE VIRTUAL DO ESTADO DE SÃO PAULO – UNIVESP</h6>
+          <p><span class="funcao">Presidente</span>Marcos Augusto Borges</p>
+          <p><span class="funcao">Diretora Acadêmica</span>Simone Telles Martins Ramos</p>
+
+          <h6>Equipe</h6>
+          <p><span class="funcao">Docente responsável</span>Eli Vagner Francisco Rodrigues</p>
+          <p><span class="funcao">Coordenação</span>Wesley de Souza Lima</p>
+          <p><span class="funcao">Roteirização e Design Instrucional</span>Alfredo Salvador Vieira Coelho e Denise de Oliveira Teixeira</p>
+          <p><span class="funcao">Ilustração</span>Carlos Henrique Bossolan</p>
+          <p><span class="funcao">Layout</span>Alexandre Tavares Alves dos Santos</p>
+          <p><span class="funcao">Programação</span>Celso de Oliveira</p>
+
+        </div>
+        <div class="modal-footer">
+          <p>Agosto/2023</p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arquivos Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://apps.univesp.br/common/jquery-ui-touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <!-- jsSocials -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+  <script>
+    var share = $(".sharing");
+    var page_title = $(document).attr('title');
+    var page_url = window.location.href;
+    share.jsSocials({
+      shares: [
+        {
+          share: "facebook",
+          logo: "fab fa-facebook-f",
+        },
+        {
+          share: "twitter",
+          logo: "fab fa-twitter",
+        },
+        {
+          share: "whatsapp",
+          logo: "fab fa-whatsapp",
+        },
+      ],
+      url: page_url,
+      text: 'Confira o REA ' + page_title + '.',
+      showLabel: false,
+      showCount: false,
+      shareIn: "popup",
+    });
+  </script>
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="javascripts/events.js"></script>
+
+  <!-- MathJax. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+
+  <!-- Analytics. Remova em caso de reutilização do REA -->
+  <script src="https://apps.univesp.br/common/analytics.js"></script>
+
+</body>
+
+</html>
